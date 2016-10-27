@@ -1,0 +1,11 @@
+begin
+  require "bundler/setup"
+  require "rake"
+rescue LoadError
+  puts "You must `gem install bundler` and `bundle install` to run rake tasks"
+end
+
+desc "Installs dependencies for flare-url."
+task :install do
+  # TODO
+end
