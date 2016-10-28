@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
 
   # Ruby
   s.required_ruby_version = ">= 2.3.0"
-  s.required_rubygems_version = ">= 2.6.7"
+  s.required_rubygems_version = ">= 2.5.1"
 
   # Dependencies
   s.add_dependency "addressable", "2.4.0"
