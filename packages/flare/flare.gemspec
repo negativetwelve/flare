@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.description = "Convention over configuration framework for building apps."
   s.authors = "Mark Miyashita"
   s.email = "negativetwelve@gmail.com"
-  s.homepage = "http://markmiyashita.com"
+  s.homepage = "https://github.com/negativetwelve/flare"
 
   # Source
   s.files = Dir["{lib}/**/*", "Rakefile", "readme.md"]
