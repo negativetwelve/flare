@@ -1,15 +1,17 @@
 PATH
   remote: .
   specs:
-    flare-url (0.1.1)
-      addressable (= 2.4.0)
-      mail (= 2.6.4)
-      public_suffix (= 1.5.1)
+    flare (0.1.0)
+      flare-url (= 0.1.1)
 
 GEM
   remote: https://rubygems.org/
   specs:
     addressable (2.4.0)
+    flare-url (0.1.1)
+      addressable (= 2.4.0)
+      mail (= 2.6.4)
+      public_suffix (= 1.5.1)
     mail (2.6.4)
       mime-types (>= 1.16, < 4)
     mime-types (3.1)
@@ -22,7 +24,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  flare-url!
+  flare!
   rake (= 10.5.0)
 
 RUBY VERSION

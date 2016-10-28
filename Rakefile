@@ -1,4 +1,5 @@
 PACKAGES = %w(
+  flare
   flare-url
 )
 
