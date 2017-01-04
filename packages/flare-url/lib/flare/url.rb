@@ -40,5 +40,17 @@ module Flare
       parsed(url)&.scheme
     end
 
+    def initialize(url: "", query: {})
+      @url = url
+      @query = query
+
+      @addressable = self.class.parsed(url)
+      @addressable.query_values = query
+    end
+
+    def to_s
+      @addressable.to_s
+    end
+
   end
 end
